@@ -78,7 +78,6 @@ def compara_assinatura(as_a, as_b):
         grauSimilaridade = grauSimilaridade *(-1)
     
     return grauSimilaridade
-    pass
 
 def calcula_assinatura(texto):
     '''IMPLEMENTAR. Essa funcao recebe um texto e deve devolver a assinatura do texto.'''
@@ -112,7 +111,6 @@ def calcula_assinatura(texto):
     assinatura = [tamMedioPalavras,typeToken,hapexLegomana,tamMedioSentenca, complexidadeSentanca,tamMedioFrase]
        
     return assinatura
-    pass
 
 def avalia_textos(textos, ass_cp):
     '''IMPLEMENTAR. Essa funcao recebe uma lista de textos e uma assinatura ass_cp e deve devolver o numero (1 a n) do texto com maior probabilidade de ter sido infectado por COH-PIAH.'''
@@ -127,7 +125,6 @@ def avalia_textos(textos, ass_cp):
         if grauMenor < info[i]:
             valorFinal = i
     return valorFinal
-    pass
 
 def main():
     assinaturaCp = le_assinatura()
