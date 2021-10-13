@@ -1,1 +1,1 @@
-# Projects in Python
+# Projects in Python for Coursera
